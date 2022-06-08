@@ -1,0 +1,28 @@
+
+{
+  "string_id": "hall_dard",
+  "string_params":
+[
+  {
+    "string_text": "Скоро будем танцевать",
+    "string_speed": 15,
+    "string_color_type": 1,
+    "string_color": "#ff0000",
+    "string_timing": "every 15 min"
+  },
+  {
+    "string_text": "Скоро будем idis",
+    "string_speed": 14,
+    "string_color_type": 2,
+    "string_color": "#00ff00",
+    "string_timing": "every 1 min"
+  },
+  {
+    "string_text": "Скоро будем pit",
+    "string_speed": 1,
+    "string_color_type": 2,
+    "string_color": "#0000ff",
+    "string_timing": "every 5 min"
+  }
+]
+}

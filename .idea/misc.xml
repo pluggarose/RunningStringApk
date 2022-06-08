@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Diplom/Dyplom/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2755208333333333" />
+        <entry key="..\:/Diplom/Dyplom/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2755208333333333" />
+        <entry key="..\:/Diplom/Dyplom/app/src/main/res/layout/activity_add_rstring.xml" value="0.1609375" />
+        <entry key="..\:/Diplom/Dyplom/app/src/main/res/layout/activity_control.xml" value="0.3464788732394366" />
+        <entry key="..\:/Diplom/Dyplom/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Diplom/Dyplom/app/src/main/res/layout/activity_view.xml" value="0.264" />
+        <entry key="..\:/Diplom/Dyplom/app/src/main/res/xml/network_security_config.xml" value="0.153125" />
+        <entry key="..\:/Diplom/Dyplom/control/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14427083333333332" />
+        <entry key="..\:/Diplom/Dyplom/control/src/main/res/drawable/ic_launcher_background.xml" value="0.14427083333333332" />
+        <entry key="..\:/Diplom/Dyplom/control/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26614583333333336" />
+        <entry key="..\:/Diplom/Dyplom/control/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26614583333333336" />
+        <entry key="..\:/Dyplom/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16197916666666667" />
+        <entry key="..\:/Dyplom/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16197916666666667" />
+        <entry key="..\:/Dyplom/app/src/main/res/layout/activity_add_rstring.xml" value="0.264" />
+        <entry key="..\:/Dyplom/app/src/main/res/layout/activity_control.xml" value="0.264" />
+        <entry key="..\:/Dyplom/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Dyplom/app/src/main/res/layout/activity_view.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

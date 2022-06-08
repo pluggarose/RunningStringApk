@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset"
+    android:scrollbars="vertical"
+    tools:context=".View">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/string_admin_actoin_selector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/string_admin_action_selected_edit_delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/string_admin_text6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Выбор строки" />
+
+                <Spinner
+                    android:id="@+id/string_admin_selector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:id="@+id/string_admin_action_selected_delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/string_admin_delete_rString"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Удалить" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/string_admin_text7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Выберите действие" />
+
+                <LinearLayout
+                    android:id="@+id/string_admin_action_selected_edit_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/string_admin_stack_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Сообщений нет" />
+
+                    <TextView
+                        android:id="@+id/string_admin_text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Выбор сообщения"
+                        android:textAlignment="center" />
+
+                    <Spinner
+                        android:id="@+id/string_admin_action_spinner"
+                        android:layout_width="158dp"
+                        android:layout_height="wrap_content" />
+
+                    <Spinner
+                        android:id="@+id/string_admin_stack_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:id="@+id/string_admin_delete_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/string_admin_delete_button"
+                                android:layout_width="202dp"
+                                android:layout_height="70dp"
+                                android:text="Удаилть для одного устройства"
+                                android:textSize="12sp" />
+
+                            <Button
+                                android:id="@+id/string_admin_delete_button2"
+                                android:layout_width="202dp"
+                                android:layout_height="70dp"
+                                android:text="Удалить для всех устройств" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/string_admin_edit_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/string_admin_load_data"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Загрузить сообщение" />
+
+                        <TextView
+                            android:id="@+id/string_admin_text2"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:text="Текст сообщения"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.004" />
+
+                        <EditText
+                            android:id="@+id/string_admin_editTextTextMultiLine3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:editable="true"
+                            android:ems="10"
+                            android:gravity="start|top"
+                            android:inputType="textMultiLine"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                        <CheckBox
+                            android:id="@+id/string_admin_Chb"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Сообщение не показывается на устройстве" />
+
+                        <TextView
+                            android:id="@+id/string_admin_text3"
+                            android:layout_width="match_parent"
+                            android:layout_height="24dp"
+                            android:layout_marginTop="32dp"
+                            android:text="Выбор скорости"
+                            android:visibility="visible"
+                            app:layout_constraintTop_toBottomOf="@+id/rStringName"
+                            tools:layout_editor_absoluteX="0dp" />
+
+                        <SeekBar
+                            android:id="@+id/string_admin_seekBar2"
+                            android:layout_width="match_parent"
+                            android:layout_height="21dp"
+                            android:layout_marginTop="4dp"
+                            android:max="100"
+                            android:progress="1"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/Txt1" />
+
+                        <TextView
+                            android:id="@+id/string_admin_speedString2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:text="1"
+                            android:textAlignment="textEnd"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/seekBar"
+                            app:layout_constraintTop_toTopOf="@+id/seekBar" />
+
+                        <TextView
+                            android:id="@+id/string_admin_text5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Выбор типа цвета"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+                        <Spinner
+                            android:id="@+id/string_admin_typeCol2"
+                            android:layout_width="match_parent"
+                            android:layout_height="58dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                        <Button
+                            android:id="@+id/string_admin_setcolor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Выбор цвета" />
+
+                        <Button
+                            android:id="@+id/string_admin_post"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Подтвердить" />
+
+                        <Button
+                            android:id="@+id/string_admin_put"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Отправить" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/string_admin_action_selected_new_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/string_admin_new_name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Имя" />
+
+                <EditText
+                    android:id="@+id/string_admin_new_id_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="id" />
+
+                <Button
+                    android:id="@+id/string_admin_new_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Создать" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
